@@ -10,7 +10,7 @@ on:
 env:
   repo_name_android: "siyuan-android"
   repo_name: "siyuan"
-  repo_owner: "EightDoor"
+  repo_owner: "C-racker"
   package_json: "app/package.json"
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.11"
       - run: pip install PyGithub
 
       - id: thislatestR
